@@ -8,4 +8,3 @@ Run the tests with:
 `ruby test/producer_test.rb`
 
 `ruby test/province_test.rb`
-
