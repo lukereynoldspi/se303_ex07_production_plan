@@ -4,15 +4,6 @@ require 'minitest/pride'
 require_relative '../lib/producer'
 require_relative '../lib/data'
 class ProducerTest < Minitest::Test
-  def setup
-    data = {
-      name: "No proudcers",
-      producers: [""],
-      demand: 30,
-      price: 20
-      }
-    no_producers = new Province
-  end
 
   def test_producer_shortfall
     prov = Producer.new('string for producers', sample_producer_data)
